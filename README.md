@@ -3,6 +3,9 @@ IBM MobileFirst Platform Foundation
 ## ResourceRequestIonic
 A sample ionic application demonstrating the use of the WLResourceRequest API in TypeScript.
 
+### Tutorials
+https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/8.0/application-development/resource-request
+
 ### Usage
 
 1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the `JavaAdapter` adapter. 
