@@ -5,9 +5,9 @@ A sample ionic application demonstrating the use to the WLResourceRequest API in
 
 ### Usage
 
-1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the `JavaAdapter` adapter.
+1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the `JavaAdapter` adapter. 
 
-  The `JavaAdapter` adapter can be found in https://github.com/MobileFirst-Platform-Developer-Center/Adapters/tree/release80.
+	The `JavaAdapter` adapter can be found in https://github.com/MobileFirst-Platform-Developer-Center/Adapters/tree/release80.
 
 2. From the command-line, navigate to the project's root folder.
 3. Add a platform by running the `ionic cordova platform add` command.
