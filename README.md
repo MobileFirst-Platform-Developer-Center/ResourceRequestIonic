@@ -1,7 +1,7 @@
 IBM MobileFirst Platform Foundation
 ===
 ## ResourceRequestIonic
-A sample ionic application demonstrating the use to the WLResourceRequest API in TypeScript.
+A sample ionic application demonstrating the use of the WLResourceRequest API in TypeScript.
 
 ### Usage
 
