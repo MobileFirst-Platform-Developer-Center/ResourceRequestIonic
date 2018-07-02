@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      MFP Resource Request
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+      <div id="wrapper">
+        <ion-item>
+           <ion-label color="primary" fixed>First name</ion-label>
+           <ion-input type="tel" [(ngModel)]="first" placeholder="Enter your first name"></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label color="primary" fixed>Middle name</ion-label>
+            <ion-input type="text" [(ngModel)]="middle" placeholder="Enter your middle name"></ion-input>
+         </ion-item>
+         <ion-item>
+            <ion-label color="primary" fixed>Last name</ion-label>
+            <ion-input type="text" [(ngModel)]="last" placeholder="Enter your last name"></ion-input>
+         </ion-item>
+         <ion-item>
+            <ion-label color="primary" fixed>Age</ion-label>
+            <ion-input type="number" [(ngModel)]="age" placeholder="Enter your Age"></ion-input>
+         </ion-item>
+         <ion-item>
+            <ion-label color="primary" fixed>Height</ion-label>
+            <ion-input type="number" [(ngModel)]="height" placeholder="Enter your height"></ion-input>
+         </ion-item>
+         <ion-item>
+            <ion-label color="primary" fixed>Birthdate</ion-label>
+            <ion-input type="text" [(ngModel)]="birthdate" placeholder="Enter your Birthdate"></ion-input>
+         </ion-item>
+         <br/>
+        <button class="submit" ion-button icon-left outline (click)="submitRequest()">Submit</button><br/>
+        <br/>
+        <div id="div_result"></div>
+      </div>
+</ion-content>
+
+
+
