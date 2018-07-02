@@ -1,16 +1,18 @@
 IBM MobileFirst Platform Foundation
 ===
-## MFP Starter Ionic
-A sample Ionic application with MobileFirst Capability which does basic OAuth with MobileFirst Server.
+## ResourceRequestIonic
+A sample ionic application demonstrating the use to the WLResourceRequest API in TypeScript.
 
 ### Usage
 
-1. From a command-line window, navigate to the project's root folder and run the commands:
- - `ionic cordova platform add` - to add a platform.
- - `mfpdev app register` - to register the application.
- - `ionic cordova run` - to run the application.
+1. Use either Maven, MobileFirst CLI or your IDE of choice to build and deploy the `JavaAdapter` adapter.
 
-3. Run the application in an Android Rmulator, iOS Simulator, Browser or physical device. Press the **Ping MobileFirst Server** button to ping MobileFirst Server.
+  The `JavaAdapter` adapter can be found in https://github.com/MobileFirst-Platform-Developer-Center/Adapters/tree/release80.
+
+2. From the command-line, navigate to the project's root folder.
+3. Add a platform by running the `ionic cordova platform add` command.
+4. Register the application by running `mfpdev app register`.
+5. Run the Ionic application by running the `ionic cordova run` command.
 
 ### Supported Levels
 IBM MobileFirst Platform Foundation 8.0
