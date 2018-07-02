@@ -1,0 +1,8 @@
+{
+  "name": "ResourceRequestIonic",
+  "app_id": "com.ibm.resourcerequestionic",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
